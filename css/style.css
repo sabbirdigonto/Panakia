@@ -1,0 +1,461 @@
+/**********Goolge fonts link*************/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+/********** Global css *************/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+.container-fluid{
+	width: 100%;
+	margin: 0 auto;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.button-group{
+
+}
+.btn-primary{
+	background: transparent;
+    border: 1px solid #dd4b2b;
+    border-radius: 50px;
+    color: #dd4b2b;
+    padding: 10px 20px;
+    transition: 0.2s ease-in-out;
+}
+.btn-primary:hover{
+	background: #dd4b2b;
+	color: #fff;
+	transition: 0.2s ease-in-out;
+}
+.form-group{
+
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+}
+
+
+/********** Global css *************/
+
+
+
+/********** Header part css *************/
+
+.header-section{
+	background: #edeff1;
+    overflow: hidden;
+}
+.header-content{
+    padding: 27px 0px;	
+}
+.logo-part{
+	width: 13%;
+    float: left;
+    padding-bottom: 20px;
+}
+.logo-part img{
+	width: 100%;
+}
+.nav-part {
+    width: 87%;
+    float: left;
+}
+.nav-part ul {
+    float: right;
+}
+.nav-part ul a{
+    text-decoration: none;
+}
+.nav-part ul li {
+    float: right;
+    display: inline;
+    margin-left: 45px;
+    background: transparent;
+    font-weight: 400px;
+    padding: 10px;
+    color: #31353e;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
+.nav-part ul li:hover{
+    float: right;
+    display: inline;
+    margin-left: 45px;
+    background: #dd4b2b;
+    font-weight: 400px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
+/********** Header part css *************/
+
+
+
+/********** Banner section css *************/
+
+.banner-section{
+    background: url(../images/banner-img.png) top no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    width: 100%;
+    text-align: center;
+}
+.banner-heading{
+    padding: 310px 0px 110px;
+}
+.banner-heading h1{
+    font-size:  48px;
+    font-weight: 300;
+    color: #fff;	
+}
+.banner-heading p{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;	
+}
+.banner-boxes{
+    width: 100%;
+    overflow: hidden;
+}
+.single-box{
+    float: left;
+    width: 33.333333%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.single-box img{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+.single-box h3{
+    color: #fff;
+    padding: 20px 0px;
+}
+.single-box p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+.box-one{
+
+}
+.box-two{
+	
+}
+
+.box-three{
+	
+}
+.banner-button{
+    padding: 70px 0px 80px;
+}
+.read-more-btn{
+
+}
+
+
+/********** Banner section css *************/
+
+
+
+
+/********** Our News section css *************/
+
+.our-news-section{
+    background: #edeff1;
+    overflow: hidden;
+}
+.our-news-content{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 60px;
+    overflow: hidden;
+}
+.news-heading{
+    padding: 15px;
+}
+.news-heading h2{
+    color: #31353e;
+    padding: 20px 0px 35px;	
+}
+.news-section-boxes{
+
+}
+.news-single-box{
+    float: left;
+    width: 33.33333%;
+    box-sizing: border-box;
+}
+.news-single-box img{
+    display: block;
+    margin: 0 auto;
+    width: 94%;	
+}
+.news-single-box h3{
+    padding: 30px 0px 5px;
+    color: #31353e;	
+}
+.news-single-box p{
+    color: #31353e;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0px 0px 30px	
+}
+.news-box-one{
+
+}
+.news-button{
+
+}
+.read-more-btn{
+
+}
+
+/********** Our News section css *************/
+
+
+
+
+/********** Newsletter section css *************/
+
+.newsletter-section{
+    background: url(../images/newsletter-banner.jpg) top no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0px 0px 30px;
+}
+.newsletter-content{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 55px 0px 145px;
+    margin: 10px 0px 0px;
+}
+.newsletter-heading{
+
+}
+.newsletter-heading h2{
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 7px;	
+}
+.newsletter-heading p{
+    color: #fff;
+    font-size: 13px;	
+}
+.newsletter-signup-form{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    margin: -50px 0px 0px;    
+}
+.form-group .email-field{
+    position: absolute;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid #fff;
+    border-radius: 50px 0px 0px 50px;
+    color: #fff;
+    margin: -37px -380px 0px;
+    padding: 9.5px;
+    width: 310px;
+}
+.newsletter-button{
+
+}
+.signup-btn{
+    background: #ffffff;
+    border: 1px solid #dd4b2b;
+    border-radius: 0px 50px 50px 0px;
+    color: #dd4b2b;
+    display: block;
+    margin: 0px 521px 0px;
+    padding: 10px 20px;
+    transition: 0.2s ease-in-out;	
+}
+.signup-btn:hover{
+    background: #dd4b2b;
+    border: 1px solid #fff;
+    border-radius: 0px 50px 50px 0px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.2s ease-in-out;	
+}
+
+
+/********** Newsletter section css *************/
+
+
+
+/********** Product section css *************/
+
+.product-section{
+	background: #edeff1;
+    overflow: hidden;
+    float: left;
+}
+.product-section-content{
+    padding: 80px 0px;
+    overflow: hidden;    
+}
+.single-product{
+    width: 100%;
+    float: left;
+}
+.product-one{
+    margin-bottom: 80px;
+}
+.product-two{
+
+}
+.product-description{
+    width: 55%;
+    overflow: hidden;
+    margin: 20px 0px;	
+}
+.product-description h2{
+    color: #191b29;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-align: left;	
+}
+.product-description .first-para{
+    color: #191b29;
+    font-size: 14px;
+    padding-bottom: 22px;
+    text-align: left;
+}
+.product-description .second-para{
+    color: #191b29;
+    font-size: 14px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.product-one-description{
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 80px 0px 0px;
+}
+.product-two-description{
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 80px;
+}
+.product-button{
+
+}
+.product-signup-btn{
+
+}
+.product-img{
+    width: 45%;
+}
+.product-img img{
+    width: 100%;
+}
+.product-one-image{
+	float: left;
+	transition: 0.2s ease-in-out;
+}
+.product-one-image:hover{
+    float: left;
+    box-shadow: 0px 0px 30px #999;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+.product-two-image{
+	float: right;
+	transition: 0.2s ease-in-out;	
+}
+.product-two-image:hover{
+	float: right;
+    box-shadow: 0px 0px 30px #999;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;	
+}
+/********** Product section css *************/
+
+
+
+/********** List section css *************/
+
+.list-section{
+    overflow: hidden;
+    float: left;
+    background: #d75d0e;
+}
+.list-content{
+    padding: 70px;
+    overflow: hidden;
+}
+.list-content ul{
+
+}
+.list-content ul li{
+	border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.list-content ul li:hover{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+.list-content ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+.list-part{
+	float: left;
+    text-align: center;
+    line-height: 26px;
+    width: 33.333%;
+}
+.first-list-part{
+	
+}
+.second-list-part{
+	
+}
+.third-list-part{
+	
+}
+/********** List section css *************/
+
+
+
+/********** Footer section css *************/
+
+.footer-section{
+    background: url(../images/newsletter-banner.jpg) top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.footer-content{
+    width: 100%;
+    text-align: center;
+    padding: 110px 0px;
+    overflow: hidden;
+}
+.footer-content p{
+	color: rgba(255,255,255,0.6);
+    font-size: 13px;
+    letter-spacing: 1px;	
+}
+.footer-content span{
+	color: #fff;
+}
+
+/********** Footer section css *************/
